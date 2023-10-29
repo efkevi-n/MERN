@@ -12,15 +12,24 @@ export default function Header() {
             </Link>
 
             <ul className=" flex flex-row gap-8 pr-2">
+                <Link to="/">
                 <li>
                     Home
                 </li>
+                </Link>
+
+                <Link to="/about">
                 <li>
                     About
                 </li>
+                </Link>
+
+                <Link to="/signin">
                 <li>
                     Sign In
                 </li>
+
+                </Link>
             </ul>
         
         </div>
